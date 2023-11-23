@@ -1,0 +1,101 @@
+body{font-family:Calibri, Tahoma, Arial}
+ 
+ .TabControl{
+    width:100%;
+    overflow:hidden;
+    height:400px}
+ 
+ .TabControl #header{
+    width:100%;
+    overflow:hidden;
+    cursor:hand}
+ 
+ .TabControl #content{
+    width:100%;
+    border: solid 1px #27408B;
+    overflow:hidden;
+    height:100%; }
+  
+ .TabControl .abas{display:inline;}
+  
+ .TabControl .abas li{float:left}
+  
+ .abas{
+    list-style:none;
+ }
+ .aba{
+    width:200px;
+    height:38px;
+    border:solid 1px;
+    border-radius:5px 5px 0 0;
+    text-align:center;
+    padding-top:5px;
+    background:#bcbec5;
+    border-bottom-color:#27408B}
+  
+ .ativa{
+    width:100px;
+    height:30px;
+    border:solid 1px #8eafa0;
+    border-radius:5px 5px 0 0;
+    text-align:center;
+    padding-top:5px;
+}
+ 
+.ativa span, .selecionada span{color:#fff}
+ 
+.TabControl #content{background:#80c58b}
+ 
+.TabControl .conteudo{
+    width:200%;
+    background:#27408B;
+    display:none;
+    height:200%;
+    color:#fff}
+ 
+.selecionada{
+    width:100px;
+    height:40px;
+    border:solid 1px #27408B;
+    border-radius:5px 5px 0 0;
+    text-align:center;
+    padding-top:5px;
+    background:#27408B}}
+
+
+Read more: http://www.linhadecodigo.com.br/artigo/3473/estrutura-de-abas-com-botao-fechar-em-html-css-e-jquery.aspx#ixzz8JvhChtFw
+
+
+
+
+.main-contact {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 20px;
+
+}
+
+.form-contact {
+    margin: 40px 0;
+ }
+
+.entry-label {
+    display: block;
+    margin: 8px auto;
+    width: 50%;
+}
+
+.entry, .form-contact textarea {
+    display: block;
+    margin: 0 auto 25px;
+    padding: 4px 9px;
+    font-size: 18px;
+    width: 50%;
+    box-sizing: border-box;
+    resize: none;
+    overflow: auto;
+}
+
+#checkbox, .div-entry {
+    margin: 30px auto;
+}
